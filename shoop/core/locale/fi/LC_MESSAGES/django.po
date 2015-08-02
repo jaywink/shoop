@@ -1,0 +1,3049 @@
+# Finnish translations for Shoop.
+# Copyright (C) 2015 Shoop Ltd
+#
+# This file is licensed under the AGPLv3 license found in the
+# LICENSE file in the root directory of this source tree.
+msgid ""
+msgstr ""
+"Project-Id-Version:  Shoop\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-08-03 22:41+0300\n"
+"PO-Revision-Date: 2015-08-03 20:15+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: fi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.0\n"
+
+#: shoop/addons/admin_module/__init__.py:14
+#: shoop/addons/admin_module/__init__.py:48
+msgid "Addons"
+msgstr ""
+
+#: shoop/addons/admin_module/views/list.py:33
+#, python-format
+msgid "Enable %s"
+msgstr ""
+
+#: shoop/addons/admin_module/views/list.py:56
+#, python-format
+msgid "%d new addons enabled."
+msgstr ""
+
+#: shoop/addons/admin_module/views/list.py:58
+#, python-format
+msgid "%d previously enabled addons disabled."
+msgstr ""
+
+#: shoop/addons/admin_module/views/list.py:72
+msgid "No changes were made."
+msgstr ""
+
+#: shoop/addons/admin_module/views/list.py:81
+msgid "Save addon changes"
+msgstr ""
+
+#: shoop/addons/admin_module/views/list.py:86
+msgid "Upload new addon"
+msgstr ""
+
+#: shoop/addons/admin_module/views/list.py:95
+msgid "Reload application"
+msgstr ""
+
+#: shoop/addons/admin_module/views/reload.py:35
+msgid "Reload Method"
+msgstr ""
+
+#: shoop/addons/admin_module/views/upload.py:30
+msgid "Addon file (ZIP)"
+msgstr ""
+
+#: shoop/addons/admin_module/views/upload.py:31
+msgid "Only upload addon files you trust."
+msgstr ""
+
+#: shoop/addons/admin_module/views/upload.py:61
+#: shoop/admin/templates/shoop/admin/media/browser.jinja:12
+msgid "Upload"
+msgstr ""
+
+#: shoop/addons/admin_module/views/upload.py:95
+msgid "Install Addon"
+msgstr ""
+
+#: shoop/addons/templates/shoop/admin/addons/upload_complete.jinja:5
+msgid "Installation Finished"
+msgstr ""
+
+#: shoop/addons/templates/shoop/admin/addons/upload_complete.jinja:7
+msgid "Installation Failed"
+msgstr ""
+
+#: shoop/addons/templates/shoop/admin/addons/upload_complete.jinja:14
+msgid "Success"
+msgstr ""
+
+#: shoop/addons/templates/shoop/admin/addons/upload_complete.jinja:15
+msgid "Next"
+msgstr ""
+
+#: shoop/addons/templates/shoop/admin/addons/upload_complete.jinja:15
+msgid "activate the newly installed addon"
+msgstr ""
+
+#: shoop/addons/templates/shoop/admin/addons/upload_complete.jinja:15
+msgid "and"
+msgstr ""
+
+#: shoop/addons/templates/shoop/admin/addons/upload_complete.jinja:15
+msgid "reload your application server"
+msgstr ""
+
+#: shoop/addons/templates/shoop/admin/addons/upload_complete.jinja:18
+#: shoop/core/middleware.py:28
+msgid "Error"
+msgstr ""
+
+#: shoop/addons/templates/shoop/admin/addons/upload_complete.jinja:25
+msgid "Installer Log"
+msgstr ""
+
+#: shoop/admin/breadcrumbs.py:93
+#: shoop/front/templates/shoop/front/index.jinja:3
+msgid "Home"
+msgstr "Koti"
+
+#: shoop/admin/toolbar.py:113
+msgid "Create new"
+msgstr ""
+
+#: shoop/admin/toolbar.py:132
+#, python-format
+msgid "New %(model)s"
+msgstr ""
+
+#: shoop/admin/toolbar.py:310
+msgid "Discard Changes"
+msgstr ""
+
+#: shoop/admin/toolbar.py:349
+#: shoop/admin/modules/products/views/edit_media.py:98
+msgid "Save"
+msgstr ""
+
+#: shoop/admin/toolbar.py:355
+msgid "Save and Exit"
+msgstr ""
+
+#: shoop/admin/toolbar.py:356
+msgid "Save and Create New"
+msgstr ""
+
+#: shoop/admin/toolbar.py:369
+msgid "Delete"
+msgstr ""
+
+#: shoop/admin/toolbar.py:372
+#, python-format
+msgid "Are you sure you wish to delete %s?"
+msgstr ""
+
+#: shoop/admin/modules/attributes/__init__.py:16
+#: shoop/admin/modules/attributes/__init__.py:44
+#: shoop/admin/templates/shoop/admin/products/_edit_attribute_form.jinja:3
+msgid "Attributes"
+msgstr "Attribuutit"
+
+#: shoop/admin/modules/attributes/views/list.py:20
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_list.jinja:15
+msgid "Identifier"
+msgstr "Tunniste"
+
+#: shoop/admin/modules/attributes/views/list.py:22
+msgid "Filter by identifier..."
+msgstr "Etsi tunnisteella..."
+
+#: shoop/admin/modules/attributes/views/list.py:24
+#: shoop/admin/modules/categories/views/list.py:19
+#: shoop/admin/modules/contact_groups/views/list.py:20
+#: shoop/admin/modules/contacts/views/list.py:19
+#: shoop/admin/modules/methods/views/list.py:18
+#: shoop/admin/modules/product_types/views/list.py:19
+#: shoop/admin/modules/products/views/list.py:19
+#: shoop/admin/modules/taxes/views/list.py:20
+#: shoop/admin/modules/taxes/views/list.py:34
+#: shoop/admin/modules/taxes/views/list.py:45 shoop/core/models/orders.py:110
+#: shoop/notify/admin_module/views/list.py:21
+msgid "Name"
+msgstr "Nimi"
+
+#: shoop/admin/modules/attributes/views/list.py:26
+#: shoop/admin/modules/categories/views/list.py:22
+#: shoop/admin/modules/contact_groups/views/list.py:22
+#: shoop/admin/modules/methods/views/list.py:20
+#: shoop/admin/modules/product_types/views/list.py:21
+#: shoop/admin/modules/products/views/list.py:21
+#: shoop/admin/modules/taxes/views/list.py:22
+#: shoop/admin/modules/taxes/views/list.py:36
+#: shoop/admin/modules/taxes/views/list.py:47
+msgid "Filter by name..."
+msgstr "Etsi nimellä..."
+
+#: shoop/admin/modules/attributes/views/list.py:28
+#: shoop/admin/modules/contacts/views/list.py:20
+#: shoop/admin/modules/products/views/list.py:23
+#: shoop/admin/modules/products/views/list.py:34
+msgid "Type"
+msgstr "Tyyppi"
+
+#: shoop/admin/modules/attributes/views/list.py:29
+msgid "Visibility Mode"
+msgstr "Näkyvyys"
+
+#: shoop/admin/modules/attributes/views/list.py:30
+msgid "Searchable"
+msgstr "Indeksoitu hakuun"
+
+#: shoop/admin/modules/attributes/views/list.py:31
+msgid "Used in # Product Types"
+msgstr ""
+
+#: shoop/admin/modules/categories/__init__.py:17
+#: shoop/admin/modules/product_types/__init__.py:39
+#: shoop/admin/modules/products/__init__.py:21
+#: shoop/admin/modules/products/__init__.py:53
+#: shoop/admin/modules/products/__init__.py:56
+#: shoop/admin/modules/products/__init__.py:82
+msgid "Products"
+msgstr "Tuotteet"
+
+#: shoop/admin/modules/categories/__init__.py:44
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:16
+msgid "Categories"
+msgstr "Kategoriat"
+
+#: shoop/admin/modules/categories/views/list.py:25
+#: shoop/admin/modules/categories/views/list.py:36
+#: shoop/admin/modules/methods/views/list.py:22
+#: shoop/admin/modules/methods/views/list.py:28
+#: shoop/admin/modules/orders/views/list.py:31
+#: shoop/admin/modules/orders/views/list.py:54
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:51
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_list.jinja:17
+msgid "Status"
+msgstr "Tilanne"
+
+#: shoop/admin/modules/categories/views/list.py:26
+#: shoop/admin/templates/shoop/admin/products/_edit_shop_form.jinja:5
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+#: shoop/admin/modules/categories/views/list.py:27
+#: shoop/admin/modules/categories/views/list.py:37
+msgid "Parent"
+msgstr ""
+
+#: shoop/admin/modules/contact_groups/__init__.py:16
+msgid "Contact Groups"
+msgstr ""
+
+#: shoop/admin/modules/contact_groups/__init__.py:17
+#: shoop/admin/modules/contacts/__init__.py:18
+#: shoop/admin/modules/contacts/__init__.py:58
+#: shoop/admin/modules/users/__init__.py:18
+msgid "Contacts"
+msgstr ""
+
+#: shoop/admin/modules/contact_groups/views/list.py:24
+msgid "Number of Members"
+msgstr ""
+
+#: shoop/admin/modules/contacts/dashboard.py:18
+msgid "Active customers"
+msgstr ""
+
+#: shoop/admin/modules/contacts/dashboard.py:21
+msgid "Based on orders within 30 days"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/detail.py:30
+msgid "The Shoop frontend is not enabled."
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/detail.py:32
+msgid "Contact has no associated user."
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/detail.py:34
+msgid "User has no associated email."
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/detail.py:40
+msgid "Reset password"
+msgstr "Resetoi salasana"
+
+#: shoop/admin/modules/contacts/views/detail.py:41
+msgid "Send a password renewal email."
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/detail.py:42
+#, python-format
+msgid "Are you sure you wish to send a password recovery email to %s?"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/detail.py:53
+msgid "New User"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/detail.py:54
+msgid "Create an user for the contact."
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/detail.py:63
+msgid "Edit…"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/edit.py:72
+#: shoop/admin/modules/contacts/views/list.py:32
+msgid "Person"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/edit.py:73
+#: shoop/admin/modules/contacts/views/list.py:34
+#: shoop/front/templates/shoop/front/macros.jinja:198
+msgid "Company"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/list.py:21
+#: shoop/admin/modules/users/views/list.py:21
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:14
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:19
+#: shoop/front/apps/auth/views.py:54
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:42
+msgid "Email"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/list.py:22
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:13
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:18
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:41
+msgid "Phone"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/list.py:23
+#: shoop/admin/modules/contacts/views/list.py:44
+#: shoop/admin/modules/users/views/list.py:24
+#: shoop/admin/modules/users/views/list.py:44
+msgid "Active"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/list.py:24
+msgid "# Orders"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/list.py:36
+#: shoop/admin/modules/contacts/views/list.py:50
+msgid "Contact"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/list.py:44
+#: shoop/admin/modules/users/views/list.py:44
+msgid "Inactive"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/list.py:45
+#: shoop/admin/modules/users/views/list.py:45
+#, python-format
+msgid "Email: %s"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/list.py:46
+#, python-format
+msgid "Phone: %s"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/list.py:47
+#, python-format
+msgid "%d orders"
+msgstr ""
+
+#: shoop/admin/modules/contacts/views/reset.py:23
+msgid "The contact does not have an associated user."
+msgstr ""
+
+#: shoop/admin/modules/demo/__init__.py:22
+msgid "Demo"
+msgstr ""
+
+#: shoop/admin/modules/media/__init__.py:19
+#: shoop/admin/modules/media/__init__.py:34
+msgid "Media"
+msgstr ""
+
+#: shoop/admin/modules/media/__init__.py:37
+msgid "Media browser"
+msgstr ""
+
+#: shoop/admin/modules/media/views.py:102
+msgid "Browse Media"
+msgstr ""
+
+#: shoop/admin/modules/methods/__init__.py:17
+msgid "Methods"
+msgstr ""
+
+#: shoop/admin/modules/methods/__init__.py:62
+msgid "Shipping Methods"
+msgstr ""
+
+#: shoop/admin/modules/methods/__init__.py:68
+msgid "Payment Methods"
+msgstr ""
+
+#: shoop/admin/modules/methods/views/edit.py:37
+msgid "The selected module has no details to configure"
+msgstr ""
+
+#: shoop/admin/modules/methods/views/edit.py:39
+msgid "The selected module is not currently available"
+msgstr ""
+
+#: shoop/admin/modules/methods/views/edit.py:46
+#: shoop/admin/modules/methods/views/edit_detail.py:19
+msgid "Edit Details"
+msgstr ""
+
+#: shoop/admin/modules/methods/views/edit.py:62
+#, python-format
+msgid "Edit %(model)s"
+msgstr ""
+
+#: shoop/admin/modules/methods/views/edit.py:81
+#, python-format
+msgid "Default %s module"
+msgstr ""
+
+#: shoop/admin/modules/orders/__init__.py:20
+#: shoop/admin/modules/orders/__init__.py:51
+#: shoop/admin/modules/orders/__init__.py:54
+#: shoop/admin/modules/orders/__init__.py:77
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:44
+msgid "Orders"
+msgstr ""
+
+#: shoop/admin/modules/orders/__init__.py:58
+msgid "Show orders"
+msgstr ""
+
+#: shoop/admin/modules/orders/__init__.py:97
+msgid "Outstanding Orders"
+msgstr ""
+
+#: shoop/admin/modules/orders/__init__.py:98
+#, python-format
+msgid "%d outstanding orders"
+msgstr ""
+
+#: shoop/admin/modules/orders/dashboard.py:31
+msgid "Sales per Month (last year)"
+msgstr ""
+
+#: shoop/admin/modules/orders/dashboard.py:36
+#, python-format
+msgid "Sales (%(currency)s)"
+msgstr ""
+
+#: shoop/admin/modules/orders/dashboard.py:43
+#, python-format
+msgid "Based on %d orders"
+msgstr ""
+
+#: shoop/admin/modules/orders/dashboard.py:53
+msgid "Today's Sales"
+msgstr ""
+
+#: shoop/admin/modules/orders/dashboard.py:70
+msgid "Lifetime Sales"
+msgstr ""
+
+#: shoop/admin/modules/orders/dashboard.py:88
+msgid "Average Purchase"
+msgstr ""
+
+#: shoop/admin/modules/orders/dashboard.py:102
+msgid "Open Orders Value"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/detail.py:30
+#: shoop/admin/modules/orders/views/shipment.py:35
+msgid "Create Shipment"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/detail.py:32
+msgid "There are no products to ship"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/detail.py:41
+msgid "Set Complete"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/detail.py:44
+msgid "This order can not be set as complete at this point"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/detail.py:71
+msgid "Unable to set order as completed at this point"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/detail.py:75
+#, python-format
+msgid "Order status changed: %s → %s"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/list.py:25
+#: shoop/admin/templates/shoop/admin/macros/order_view.jinja:36
+msgid "Order"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/list.py:26
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:12
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:35
+msgid "Order Date"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/list.py:28
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:15
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:38
+msgid "Customer"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/list.py:32
+#: shoop/admin/templates/shoop/admin/macros/order_view.jinja:11
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:27
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:54
+msgid "Payment Status"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/list.py:33
+#: shoop/admin/templates/shoop/admin/macros/order_view.jinja:10
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:28
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:55
+msgid "Shipping Status"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/list.py:35
+#: shoop/admin/modules/orders/views/list.py:53
+#: shoop/admin/templates/shoop/admin/macros/order_view.jinja:8
+#: shoop/admin/templates/shoop/admin/macros/order_view.jinja:45
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:110
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:112
+#: shoop/front/templates/shoop/front/checkout/_confirm_table.jinja:14
+#: shoop/front/templates/shoop/front/checkout/_confirm_table.jinja:20
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:71
+#: shoop/front/templates/shoop/front/order/partials/product_table.jinja:13
+#: shoop/front/templates/shoop/front/order/partials/product_table.jinja:19
+msgid "Total"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/shipment.py:30
+#, python-format
+msgid "Create Shipment — %s"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/shipment.py:52
+msgid "Supplier"
+msgstr ""
+
+#: shoop/admin/modules/orders/views/shipment.py:96
+msgid "No products to ship."
+msgstr ""
+
+#: shoop/admin/modules/orders/views/shipment.py:99
+#, python-format
+msgid "Shipment %s created."
+msgstr ""
+
+#: shoop/admin/modules/product_types/__init__.py:16
+msgid "Product Types"
+msgstr ""
+
+#: shoop/admin/modules/product_types/__init__.py:42
+msgid "Product types"
+msgstr ""
+
+#: shoop/admin/modules/product_types/views/list.py:23
+msgid "Number of Attributes"
+msgstr ""
+
+#: shoop/admin/modules/products/__init__.py:90
+#, python-format
+msgid "Create Product Called \"%s\""
+msgstr ""
+
+#: shoop/admin/modules/products/__init__.py:97
+#, python-format
+msgid "Create Product with SKU \"%s\""
+msgstr ""
+
+#: shoop/admin/modules/products/views/delete.py:29
+#, python-format
+msgid "%s has been marked deleted."
+msgstr ""
+
+#: shoop/admin/modules/products/views/edit.py:85
+#, python-format
+msgid "Changes to shop instance for %s saved"
+msgstr ""
+
+#: shoop/admin/modules/products/views/edit.py:126
+msgid "Manage Product Media"
+msgstr ""
+
+#: shoop/admin/modules/products/views/edit_media.py:93
+#, python-format
+msgid "Edit Media: %s"
+msgstr ""
+
+#: shoop/admin/modules/products/views/edit_media.py:113
+msgid "Changes saved."
+msgstr ""
+
+#: shoop/admin/modules/products/views/list.py:18
+#: shoop/admin/modules/products/views/list.py:33
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:60
+#: shoop/core/models/products.py:183 shoop/core/models/supplied_products.py:16
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:86
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:2
+#: shoop/front/templates/shoop/front/product/detail.jinja:66
+msgid "SKU"
+msgstr "Tuotekoodi"
+
+#: shoop/admin/modules/products/views/list.py:18
+msgid "Filter by SKU..."
+msgstr ""
+
+#: shoop/admin/modules/products/views/list.py:24
+#: shoop/admin/modules/products/views/list.py:35
+msgid "Primary Category"
+msgstr ""
+
+#: shoop/admin/modules/system/__init__.py:16
+#: shoop/testing/admin_module/__init__.py:24
+msgid "System"
+msgstr ""
+
+#: shoop/admin/modules/system/__init__.py:34
+#: shoop/admin/modules/system/__init__.py:43
+#: shoop/admin/modules/system/views/telemetry.py:25
+msgid "Telemetry"
+msgstr ""
+
+#: shoop/admin/modules/system/__init__.py:42
+msgid ""
+"Statistics will be periodically sent to Shoop.io after 24 hours. Click "
+"here for more information."
+msgstr ""
+
+#: shoop/admin/modules/taxes/__init__.py:16
+#: shoop/default_tax/admin_module/__init__.py:17
+msgid "Taxes"
+msgstr ""
+
+#: shoop/admin/modules/taxes/__init__.py:85
+msgid "List Taxes"
+msgstr ""
+
+#: shoop/admin/modules/taxes/__init__.py:89
+msgid "List Customer Tax Groups"
+msgstr ""
+
+#: shoop/admin/modules/taxes/__init__.py:93
+msgid "List Tax Classes"
+msgstr ""
+
+#: shoop/admin/modules/taxes/views/list.py:19
+msgid "Code"
+msgstr ""
+
+#: shoop/admin/modules/taxes/views/list.py:24
+msgid "Rate"
+msgstr ""
+
+#: shoop/admin/modules/taxes/views/list.py:25
+msgid "Amount"
+msgstr ""
+
+#: shoop/admin/modules/taxes/views/list.py:26
+#: shoop/default_tax/admin_module/views.py:52
+#: shoop/notify/admin_module/views/list.py:23
+#: shoop/notify/admin_module/views/list.py:46
+msgid "Enabled"
+msgstr "Päällä"
+
+#: shoop/admin/modules/users/__init__.py:17
+#: shoop/admin/modules/users/__init__.py:62
+msgid "Users"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:31
+msgid "Password"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:33
+msgid "Permissions"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:36
+msgid "See the permissions view to change these."
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:45
+msgid "staff"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:46
+msgid "superuser"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:47
+msgid "No special permissions"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:77
+msgid "Change Password"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:81
+msgid "User has no email address"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:82
+msgid "Send Password Reset Email"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:86
+msgid "Edit Permissions"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:101
+msgid "Contact Details"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:108
+msgid "New Contact"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:109
+msgid "Create a new contact and associate it with this user"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:114
+msgid "Actions"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:123
+msgid "Activate User"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:132
+msgid "Deactivate User"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:183
+#, python-format
+msgid "User bound to contact %(contact)s."
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:193
+msgid "You can not deactivate a superuser."
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:195
+msgid "You can not deactivate yourself."
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:199
+#, python-format
+msgid "%(user)s is now %(state)s."
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:201
+msgid "active"
+msgstr ""
+
+#: shoop/admin/modules/users/views/detail.py:201
+msgid "inactive"
+msgstr ""
+
+#: shoop/admin/modules/users/views/list.py:20
+msgid "Username"
+msgstr ""
+
+#: shoop/admin/modules/users/views/list.py:22
+msgid "First Name"
+msgstr ""
+
+#: shoop/admin/modules/users/views/list.py:23
+msgid "Last Name"
+msgstr ""
+
+#: shoop/admin/modules/users/views/list.py:25
+#: shoop/admin/modules/users/views/list.py:46
+msgid "Staff"
+msgstr ""
+
+#: shoop/admin/modules/users/views/list.py:26
+#: shoop/admin/modules/users/views/list.py:47
+msgid "Superuser"
+msgstr ""
+
+#: shoop/admin/modules/users/views/list.py:42
+#, python-format
+msgid "First Name: %s"
+msgstr ""
+
+#: shoop/admin/modules/users/views/list.py:43
+#, python-format
+msgid "Last Name: %s"
+msgstr ""
+
+#: shoop/admin/modules/users/views/list.py:50
+#: shoop/admin/templates/shoop/admin/base/_navigation.jinja:43
+msgid "User"
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:24
+msgid "The two password fields didn't match."
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:25
+msgid "Your old password was entered incorrectly. Please enter it again."
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:28
+#: shoop/admin/modules/users/views/permissions.py:23
+msgid "Your Password"
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:30
+#: shoop/admin/modules/users/views/permissions.py:25
+msgid "For security purposes, we need your current password."
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:32
+msgid "New Password"
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:33
+msgid "New Password (again)"
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:40
+msgid "You can not change the password of a superuser."
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:83
+msgid "Change User Password"
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:110
+#, python-format
+msgid "Password changed for %s."
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:120
+msgid "Reset User Password"
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:127
+msgid "The `shoop.front.apps.auth` app needs to be enabled for password reset."
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:132
+#, python-format
+msgid "Password recovery email sent to %(email)s"
+msgstr ""
+
+#: shoop/admin/modules/users/views/password.py:134
+msgid "Sending the password recovery email failed."
+msgstr ""
+
+#: shoop/admin/modules/users/views/permissions.py:57
+msgid "You can't unset this status for yourself."
+msgstr ""
+
+#: shoop/admin/modules/users/views/permissions.py:64
+msgid "Change User Permissions"
+msgstr ""
+
+#: shoop/admin/modules/users/views/permissions.py:93
+#, python-format
+msgid "Change Permissions: %s"
+msgstr ""
+
+#: shoop/admin/modules/users/views/permissions.py:98
+#, python-format
+msgid "Permissions changed for %s."
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/auth/logout.jinja:2
+#: shoop/front/apps/auth/templates/shoop/user/logout.jinja:2
+msgid "Logged out"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/auth/logout.jinja:6
+msgid "You have been logged out. Good bye!"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/auth/logout.jinja:11
+msgid "Log in again"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/auth/logout.jinja:16
+#: shoop/admin/templates/shoop/admin/base/_navigation.jinja:40
+msgid "Visit shop"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/base/_navigation.jinja:1
+msgid "Menu"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/base/_navigation.jinja:8
+msgid "Dashboard"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/base/_navigation.jinja:20
+#: shoop/admin/templates/shoop/admin/base/_navigation.jinja:27
+msgid "Search for"
+msgstr "Hae"
+
+#: shoop/admin/templates/shoop/admin/base/_navigation.jinja:49
+msgid "Hello"
+msgstr "Hei"
+
+#: shoop/admin/templates/shoop/admin/base/_navigation.jinja:53
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:127
+msgid "Log out"
+msgstr "Kirjaudu ulos"
+
+#: shoop/admin/templates/shoop/admin/categories/_edit_base_form.jinja:5
+#: shoop/admin/templates/shoop/admin/products/_edit_base_form.jinja:5
+msgid "General Information"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/_edit_addresses_form.jinja:19
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:22
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:33
+#: shoop/front/checkout/addresses.py:52
+msgid "Addresses"
+msgstr "Osoitteet"
+
+#: shoop/admin/templates/shoop/admin/contacts/_edit_addresses_form.jinja:22
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:72
+msgid "Billing Address"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/_edit_addresses_form.jinja:26
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:62
+msgid "Shipping Address"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/_edit_base_form.jinja:4
+msgid "Basic details"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:10
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:32
+msgid "Basic Information"
+msgstr "Yleistieto"
+
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:12
+msgid "Full Name"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:15
+msgid "Groups"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:15
+msgid "No groups"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:16
+msgid "Bound User"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:25
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:36
+#: shoop/front/templates/shoop/front/macros.jinja:150
+msgid "Shipping address"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:29
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:40
+msgid "No shipping address defined."
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:33
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:44
+#: shoop/front/templates/shoop/front/macros.jinja:176
+msgid "Billing address"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/contacts/detail.jinja:37
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:48
+msgid "No billing address defined."
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/dashboard/dashboard.jinja:3
+msgid "Welcome!"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/dashboard/dashboard.jinja:32
+#: shoop/notify/admin_module/__init__.py:21
+#: shoop/notify/admin_module/__init__.py:63
+msgid "Notifications"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/dashboard/dashboard.jinja:38
+msgid "Mark as read"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/dashboard/dashboard.jinja:60
+msgid "Activity Feed"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/macros/multilanguage.jinja:14
+msgid "Language-dependent content"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/macros/order_view.jinja:7
+msgid "Date"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/macros/order_view.jinja:9
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:26
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:53
+msgid "Order Status"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/media/browser.jinja:9
+msgid "Add folder"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:9
+msgid "Details & Status"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:11
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:34
+msgid "Order Number"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:13
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:36
+msgid "Reference"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:14
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:37
+msgid "Label"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:16
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:39
+msgid "Ordered by"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:17
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:40
+msgid "Creator"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:20
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:43
+msgid "VAT Code"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:21
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:45
+msgid "Total Price (taxless)"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:22
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:44
+msgid "Total Price"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:55
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:81
+msgid "Order Contents"
+msgstr "Tilauksen sisältö"
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:61
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:87
+#: shoop/notify/typology.py:75
+msgid "Text"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:62
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:88
+msgid "Taxless Unit Price"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:63
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:89
+#: shoop/front/templates/shoop/front/checkout/_confirm_table.jinja:13
+#: shoop/front/templates/shoop/front/order/partials/product_table.jinja:12
+#: shoop/front/templates/shoop/front/product/_detail_order_section.jinja:3
+msgid "Quantity"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:64
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:90
+msgid "Taxless Discount"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:65
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:113
+#: shoop/default_tax/admin_module/views.py:50
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:91
+#: shoop/front/templates/shoop/front/order/partials/taxes.jinja:4
+msgid "Tax"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:66
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:120
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:92
+msgid "Taxless Total"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:67
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:124
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:93
+msgid "Total incl. Tax"
+msgstr "Yhteensä mukaanlukien verot"
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:107
+msgid "Discount"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/orders/detail.jinja:113
+msgid "Taxless"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/products/_edit_base_form.jinja:14
+msgid "Additional Details"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/products/_edit_base_form.jinja:28
+msgid "Accounting"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/products/_edit_base_form.jinja:35
+msgid "Physical Properties"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/products/_edit_base_form.jinja:44
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:9
+msgid "Manufacturer"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/products/_edit_shop_form.jinja:15
+msgid "Purchasing"
+msgstr ""
+
+#: shoop/admin/templates/shoop/admin/products/_edit_shop_form.jinja:21
+#: shoop/front/checkout/methods.py:75
+msgid "Shipping & Payment"
+msgstr "Toimitus ja maksu"
+
+#: shoop/admin/utils/picotable.py:205
+msgid "no"
+msgstr ""
+
+#: shoop/admin/utils/picotable.py:206
+msgid "yes"
+msgstr ""
+
+#: shoop/admin/utils/picotable.py:305
+#, python-format
+msgid "Showing %(per_page)s of %(n_items)s %(verbose_name_plural)s"
+msgstr ""
+
+#: shoop/admin/utils/picotable.py:327
+msgid "objects"
+msgstr ""
+
+#: shoop/admin/utils/urls.py:57
+#, python-format
+msgid "Can't view this page. %(reason)s"
+msgstr ""
+
+#: shoop/admin/utils/urls.py:58
+msgid "Log in with different credentials…"
+msgstr ""
+
+#: shoop/admin/utils/urls.py:73
+msgid "You must be logged in."
+msgstr ""
+
+#: shoop/admin/utils/urls.py:75
+msgid "You must be a staff member."
+msgstr ""
+
+#: shoop/admin/utils/urls.py:79
+#, python-format
+msgid "You do not have the required permissions: %r"
+msgstr ""
+
+#: shoop/admin/utils/views.py:80
+#, python-format
+msgid "New %s created."
+msgstr ""
+
+#: shoop/admin/utils/views.py:82
+#, python-format
+msgid "%s edited."
+msgstr ""
+
+#: shoop/admin/utils/views.py:99
+#, python-format
+msgid "New %s"
+msgstr ""
+
+#: shoop/admin/utils/views.py:109
+#, python-format
+msgid "Unnamed %s"
+msgstr ""
+
+#: shoop/core/fields/__init__.py:29
+msgid "internal identifier"
+msgstr "sisäinen tunniste"
+
+#: shoop/core/fields/__init__.py:30
+msgid "Do not change this value if you are not sure what you're doing."
+msgstr ""
+
+#: shoop/core/methods/base.py:34
+#: shoop/front/templates/shoop/front/checkout/_confirm_table.jinja:12
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:65
+#: shoop/front/templates/shoop/front/order/partials/product_table.jinja:11
+msgid "Price"
+msgstr "Hinta"
+
+#: shoop/core/methods/base.py:37
+msgid "Waiver minimum"
+msgstr ""
+
+#: shoop/core/methods/base.py:38
+msgid ""
+"Waive the price when the total price of products in the order reaches "
+"this amount"
+msgstr ""
+
+#: shoop/core/methods/base.py:162
+msgid "0 or below: no lower limit"
+msgstr ""
+
+#: shoop/core/methods/base.py:165
+msgid "minimum weight"
+msgstr ""
+
+#: shoop/core/methods/base.py:166
+msgid "maximum weight"
+msgstr ""
+
+#: shoop/core/methods/base.py:178
+msgid "Minimum weight not met."
+msgstr ""
+
+#: shoop/core/methods/base.py:185
+msgid "Maximum weight exceeded."
+msgstr ""
+
+#: shoop/core/methods/default.py:15
+msgid "Default Shipping"
+msgstr "Oletus toimitustapa"
+
+#: shoop/core/methods/default.py:20
+msgid "Default Payment"
+msgstr "Oletus maksutapa"
+
+#: shoop/core/models/addresses.py:43 shoop/core/models/contacts.py:50
+#: shoop/core/models/orders.py:174
+msgid "shipping address"
+msgstr "toimitusosoite"
+
+#: shoop/core/models/addresses.py:44 shoop/core/models/contacts.py:54
+#: shoop/core/models/orders.py:170
+msgid "billing address"
+msgstr "laskutusosoite"
+
+#: shoop/core/models/addresses.py:52 shoop/core/models/methods.py:41
+msgid "disabled"
+msgstr ""
+
+#: shoop/core/models/addresses.py:53 shoop/core/models/methods.py:42
+#: shoop/core/models/product_media.py:67 shoop/core/models/taxes.py:41
+#: shoop/core/models/taxes.py:74 shoop/core/models/taxes.py:86
+#: shoop/default_tax/models.py:34
+msgid "enabled"
+msgstr ""
+
+#: shoop/core/models/addresses.py:101 shoop/core/models/contacts.py:69
+msgid "name prefix"
+msgstr ""
+
+#: shoop/core/models/addresses.py:102 shoop/core/models/categories.py:89
+#: shoop/core/models/contacts.py:29 shoop/core/models/contacts.py:70
+#: shoop/core/models/manufacturers.py:22 shoop/core/models/methods.py:135
+#: shoop/core/models/methods.py:151 shoop/core/models/product_variation.py:40
+#: shoop/core/models/products.py:106 shoop/core/models/products.py:214
+#: shoop/core/models/taxes.py:72 shoop/core/models/taxes.py:84
+msgid "name"
+msgstr "nimi"
+
+#: shoop/core/models/addresses.py:103 shoop/core/models/contacts.py:71
+msgid "name suffix"
+msgstr "nimen liite"
+
+#: shoop/core/models/addresses.py:104 shoop/core/models/contacts.py:72
+msgid "name extension"
+msgstr ""
+
+#: shoop/core/models/addresses.py:105
+msgid "company name"
+msgstr "yrityksen nimi"
+
+#: shoop/core/models/addresses.py:106 shoop/core/models/contacts.py:87
+#: shoop/core/models/orders.py:175 shoop/front/checkout/single_page.py:34
+msgid "VAT code"
+msgstr "ALV koodi"
+
+#: shoop/core/models/addresses.py:107 shoop/core/models/contacts.py:66
+#: shoop/core/models/orders.py:176
+msgid "phone"
+msgstr "puhelinnumero"
+
+#: shoop/core/models/addresses.py:108 shoop/core/models/contacts.py:73
+#: shoop/utils/analog.py:31
+msgid "email"
+msgstr "sähköposti"
+
+#: shoop/core/models/addresses.py:109
+msgid "street"
+msgstr "osoite"
+
+#: shoop/core/models/addresses.py:110
+msgid "street (2)"
+msgstr "osoite (2)"
+
+#: shoop/core/models/addresses.py:111
+msgid "street (3)"
+msgstr "osoite (3)"
+
+#: shoop/core/models/addresses.py:112
+msgid "ZIP / Postal code"
+msgstr "Postinumero"
+
+#: shoop/core/models/addresses.py:113
+msgid "city"
+msgstr "kaupunki"
+
+#: shoop/core/models/addresses.py:114
+msgid "region code"
+msgstr "maakunta koodi"
+
+#: shoop/core/models/addresses.py:115
+msgid "region"
+msgstr "maakunta"
+
+#: shoop/core/models/addresses.py:116
+msgid "country"
+msgstr "maa"
+
+#: shoop/core/models/addresses.py:117
+msgid "immutable"
+msgstr ""
+
+#: shoop/core/models/addresses.py:131 shoop/core/models/addresses.py:197
+msgid "address"
+msgstr "osoite"
+
+#: shoop/core/models/addresses.py:132
+msgid "addresses"
+msgstr "osoitteet"
+
+#: shoop/core/models/addresses.py:198
+msgid "role"
+msgstr "rooli"
+
+#: shoop/core/models/addresses.py:199 shoop/core/models/categories.py:77
+#: shoop/core/models/methods.py:87 shoop/core/models/orders.py:184
+msgid "status"
+msgstr "tilanne"
+
+#: shoop/core/models/addresses.py:200 shoop/core/models/product_media.py:74
+msgid "title"
+msgstr "nimike"
+
+#: shoop/core/models/addresses.py:204
+msgid "saved address"
+msgstr "tallennettu osoite"
+
+#: shoop/core/models/addresses.py:205
+msgid "saved addresses"
+msgstr "tallennetut osoitteet"
+
+#: shoop/core/models/attributes.py:43
+msgid "hidden"
+msgstr "piilotettu"
+
+#: shoop/core/models/attributes.py:44
+msgid "shown on product page"
+msgstr "näkyvissä tuotesivulla"
+
+#: shoop/core/models/attributes.py:45
+msgid "searchable metadata"
+msgstr ""
+
+#: shoop/core/models/attributes.py:46
+msgid "private metadata"
+msgstr ""
+
+#: shoop/core/models/attributes.py:62
+msgid "integer"
+msgstr ""
+
+#: shoop/core/models/attributes.py:63
+msgid "decimal"
+msgstr ""
+
+#: shoop/core/models/attributes.py:64
+msgid "boolean"
+msgstr ""
+
+#: shoop/core/models/attributes.py:65
+msgid "time interval"
+msgstr ""
+
+#: shoop/core/models/attributes.py:67
+msgid "date and time"
+msgstr ""
+
+#: shoop/core/models/attributes.py:68
+msgid "date only"
+msgstr ""
+
+#: shoop/core/models/attributes.py:70
+msgid "translated string"
+msgstr ""
+
+#: shoop/core/models/attributes.py:71
+msgid "untranslated string"
+msgstr ""
+
+#: shoop/core/models/attributes.py:111
+msgid "attribute"
+msgstr ""
+
+#: shoop/core/models/attributes.py:112 shoop/core/models/products.py:110
+msgid "attributes"
+msgstr ""
+
+#: shoop/core/models/categories.py:30 shoop/core/models/product_variation.py:31
+msgid "invisible"
+msgstr ""
+
+#: shoop/core/models/categories.py:31 shoop/core/models/product_variation.py:32
+msgid "visible"
+msgstr ""
+
+#: shoop/core/models/categories.py:32
+msgid "deleted"
+msgstr ""
+
+#: shoop/core/models/categories.py:41 shoop/core/models/products.py:57
+msgid "visible to all"
+msgstr ""
+
+#: shoop/core/models/categories.py:42
+msgid "visible to logged in customers"
+msgstr ""
+
+#: shoop/core/models/categories.py:43
+msgid "visible to certain customer groups"
+msgstr ""
+
+#: shoop/core/models/categories.py:74
+msgid "parent category"
+msgstr ""
+
+#: shoop/core/models/categories.py:78 shoop/core/models/product_media.py:29
+msgid "image"
+msgstr "kuva"
+
+#: shoop/core/models/categories.py:79 shoop/core/models/order_lines.py:76
+#: shoop/core/models/order_lines.py:191
+msgid "ordering"
+msgstr "järjestys"
+
+#: shoop/core/models/categories.py:82 shoop/core/models/product_shops.py:33
+msgid "visibility limitations"
+msgstr ""
+
+#: shoop/core/models/categories.py:85 shoop/core/models/product_shops.py:36
+msgid "visible for groups"
+msgstr ""
+
+#: shoop/core/models/categories.py:90 shoop/core/models/product_media.py:75
+#: shoop/core/models/products.py:215
+msgid "description"
+msgstr "kuvaus"
+
+#: shoop/core/models/categories.py:91 shoop/core/models/products.py:216
+msgid "slug"
+msgstr ""
+
+#: shoop/core/models/categories.py:97
+msgid "category"
+msgstr "kategoria"
+
+#: shoop/core/models/categories.py:98 shoop/core/models/product_shops.py:52
+msgid "categories"
+msgstr "kategoriat"
+
+#: shoop/core/models/contacts.py:25
+msgid "members"
+msgstr ""
+
+#: shoop/core/models/contacts.py:26
+msgid "show as pricing option"
+msgstr ""
+
+#: shoop/core/models/contacts.py:33
+msgid "contact group"
+msgstr ""
+
+#: shoop/core/models/contacts.py:34
+msgid "contact groups"
+msgstr ""
+
+#: shoop/core/models/contacts.py:58
+msgid "default shipping method"
+msgstr ""
+
+#: shoop/core/models/contacts.py:61
+msgid "default payment method"
+msgstr ""
+
+#: shoop/core/models/contacts.py:64 shoop/core/models/orders.py:226
+msgid "language"
+msgstr "kieli"
+
+#: shoop/core/models/contacts.py:65 shoop/core/models/orders.py:231
+msgid "marketing permission"
+msgstr "markkinointilupa"
+
+#: shoop/core/models/contacts.py:67
+msgid "web address"
+msgstr "web osoite"
+
+#: shoop/core/models/contacts.py:81
+msgid "contact"
+msgstr ""
+
+#: shoop/core/models/contacts.py:82
+msgid "contacts"
+msgstr ""
+
+#: shoop/core/models/contacts.py:90
+msgid "company"
+msgstr ""
+
+#: shoop/core/models/contacts.py:91
+msgid "companies"
+msgstr ""
+
+#: shoop/core/models/contacts.py:108
+msgid "person"
+msgstr ""
+
+#: shoop/core/models/contacts.py:109
+msgid "persons"
+msgstr ""
+
+#: shoop/core/models/counters.py:20
+msgid "order reference"
+msgstr ""
+
+#: shoop/core/models/counters.py:28
+msgid "counter"
+msgstr ""
+
+#: shoop/core/models/counters.py:29
+msgid "counters"
+msgstr ""
+
+#: shoop/core/models/manufacturers.py:19
+msgid "added"
+msgstr ""
+
+#: shoop/core/models/manufacturers.py:23
+msgid "URL"
+msgstr ""
+
+#: shoop/core/models/manufacturers.py:26 shoop/core/models/products.py:207
+msgid "manufacturer"
+msgstr "valmistaja"
+
+#: shoop/core/models/manufacturers.py:27
+msgid "manufacturers"
+msgstr "valmistajat"
+
+#: shoop/core/models/methods.py:32 shoop/core/models/order_lines.py:36
+msgid "shipping"
+msgstr "toimitus"
+
+#: shoop/core/models/methods.py:33 shoop/core/models/order_lines.py:37
+#: shoop/core/models/payments.py:27
+msgid "payment"
+msgstr "maksu"
+
+#: shoop/core/models/methods.py:86 shoop/core/models/products.py:176
+#: shoop/core/models/taxes.py:77
+msgid "tax class"
+msgstr "veroluokka"
+
+#: shoop/core/models/methods.py:89 shoop/core/models/suppliers.py:31
+msgid "module"
+msgstr ""
+
+#: shoop/core/models/methods.py:139 shoop/core/models/orders.py:205
+msgid "shipping method"
+msgstr "toimitustapa"
+
+#: shoop/core/models/methods.py:140 shoop/core/models/product_shops.py:43
+msgid "shipping methods"
+msgstr "toimitustavat"
+
+#: shoop/core/models/methods.py:155 shoop/core/models/orders.py:196
+msgid "payment method"
+msgstr "maksutapa"
+
+#: shoop/core/models/methods.py:156 shoop/core/models/product_shops.py:46
+msgid "payment methods"
+msgstr "maksutavat"
+
+#: shoop/core/models/order_lines.py:35 shoop/core/models/order_lines.py:65
+#: shoop/core/models/products.py:233
+msgid "product"
+msgstr "tuote"
+
+#: shoop/core/models/order_lines.py:38
+msgid "campaign"
+msgstr "kampanja"
+
+#: shoop/core/models/order_lines.py:39 shoop/utils/analog.py:26
+msgid "other"
+msgstr "muu"
+
+#: shoop/core/models/order_lines.py:62 shoop/core/models/orders.py:238
+msgid "order"
+msgstr "tilaus"
+
+#: shoop/core/models/order_lines.py:69
+msgid "supplier"
+msgstr ""
+
+#: shoop/core/models/order_lines.py:74
+msgid "parent line"
+msgstr ""
+
+#: shoop/core/models/order_lines.py:77
+msgid "line type"
+msgstr ""
+
+#: shoop/core/models/order_lines.py:78
+msgid "line SKU"
+msgstr ""
+
+#: shoop/core/models/order_lines.py:79
+msgid "line text"
+msgstr ""
+
+#: shoop/core/models/order_lines.py:80
+msgid "accounting identifier"
+msgstr ""
+
+#: shoop/core/models/order_lines.py:81
+msgid "require verification"
+msgstr ""
+
+#: shoop/core/models/order_lines.py:82
+msgid "verified"
+msgstr ""
+
+#: shoop/core/models/order_lines.py:86
+msgid "quantity"
+msgstr "määrä"
+
+#: shoop/core/models/order_lines.py:87
+msgid "unit price amount"
+msgstr "yksikköhinta"
+
+#: shoop/core/models/order_lines.py:88
+msgid "total amount of discount"
+msgstr "alennus yhteensä"
+
+#: shoop/core/models/order_lines.py:94 shoop/core/models/order_lines.py:181
+msgid "order line"
+msgstr "tilauksen rivi"
+
+#: shoop/core/models/order_lines.py:95
+msgid "order lines"
+msgstr "tilauksen rivit"
+
+#: shoop/core/models/order_lines.py:184 shoop/core/models/taxes.py:65
+msgid "tax"
+msgstr "vero"
+
+#: shoop/core/models/order_lines.py:186
+msgid "tax name"
+msgstr "veron nimi"
+
+#: shoop/core/models/order_lines.py:187 shoop/core/models/taxes.py:38
+msgid "tax amount"
+msgstr "veron määrä"
+
+#: shoop/core/models/order_lines.py:189
+msgid "base amount"
+msgstr "yhteensä"
+
+#: shoop/core/models/order_lines.py:190
+msgid "Amount that this tax is calculated from"
+msgstr "Määrä josta vero muodostuu"
+
+#: shoop/core/models/orders.py:44
+msgid "not paid"
+msgstr "ei maksettu"
+
+#: shoop/core/models/orders.py:45
+msgid "partially paid"
+msgstr "maksettu osittain"
+
+#: shoop/core/models/orders.py:46
+msgid "fully paid"
+msgstr "maksettu kokonaan"
+
+#: shoop/core/models/orders.py:47 shoop/core/models/orders.py:72
+msgid "canceled"
+msgstr "peruttu"
+
+#: shoop/core/models/orders.py:48
+msgid "deferred"
+msgstr "käsittelemätön"
+
+#: shoop/core/models/orders.py:57 shoop/core/models/products.py:87
+msgid "not shipped"
+msgstr "toimittamaton"
+
+#: shoop/core/models/orders.py:58
+msgid "partially shipped"
+msgstr "osittain toimitettu"
+
+#: shoop/core/models/orders.py:59
+msgid "fully shipped"
+msgstr "täysin toimitettu"
+
+#: shoop/core/models/orders.py:69 shoop/notify/enums.py:44
+msgid "none"
+msgstr "ei yhtään"
+
+#: shoop/core/models/orders.py:70
+msgid "initial"
+msgstr ""
+
+#: shoop/core/models/orders.py:71
+msgid "complete"
+msgstr ""
+
+#: shoop/core/models/orders.py:150
+msgid "order identifier"
+msgstr ""
+
+#: shoop/core/models/orders.py:152
+msgid "label"
+msgstr ""
+
+#: shoop/core/models/orders.py:155
+msgid "key"
+msgstr ""
+
+#: shoop/core/models/orders.py:158
+msgid "reference number"
+msgstr ""
+
+#: shoop/core/models/orders.py:163
+msgid "customer"
+msgstr ""
+
+#: shoop/core/models/orders.py:166
+msgid "orderer"
+msgstr ""
+
+#: shoop/core/models/orders.py:177
+msgid "email address"
+msgstr ""
+
+#: shoop/core/models/orders.py:182
+msgid "creating user"
+msgstr ""
+
+#: shoop/core/models/orders.py:187
+msgid "payment status"
+msgstr ""
+
+#: shoop/core/models/orders.py:190
+msgid "shipping status"
+msgstr ""
+
+#: shoop/core/models/orders.py:199
+msgid "payment method name"
+msgstr ""
+
+#: shoop/core/models/orders.py:208
+msgid "shipping method name"
+msgstr ""
+
+#: shoop/core/models/orders.py:214
+msgid "grand total"
+msgstr ""
+
+#: shoop/core/models/orders.py:215
+msgid "taxless total"
+msgstr ""
+
+#: shoop/core/models/orders.py:220
+msgid "IP address"
+msgstr ""
+
+#: shoop/core/models/orders.py:222
+msgid "order date"
+msgstr ""
+
+#: shoop/core/models/orders.py:223
+msgid "payment date"
+msgstr ""
+
+#: shoop/core/models/orders.py:227
+msgid "customer comment"
+msgstr ""
+
+#: shoop/core/models/orders.py:228
+msgid "admin comment/notes"
+msgstr ""
+
+#: shoop/core/models/orders.py:229
+msgid "requires verification"
+msgstr ""
+
+#: shoop/core/models/orders.py:230
+msgid "all lines verified"
+msgstr ""
+
+#: shoop/core/models/orders.py:239
+msgid "orders"
+msgstr "tilaukset"
+
+#: shoop/core/models/orders.py:347
+msgid "Order marked as paid."
+msgstr ""
+
+#: shoop/core/models/orders.py:437
+#, python-format
+msgid "Shipment #%d created."
+msgstr ""
+
+#: shoop/core/models/orders.py:483
+msgid "All rows requiring verification have been verified."
+msgstr ""
+
+#: shoop/core/models/orders.py:527
+msgid "All products have been shipped. Fully Shipped status set."
+msgstr ""
+
+#: shoop/core/models/payments.py:28
+msgid "payments"
+msgstr ""
+
+#: shoop/core/models/persistent_cache.py:20
+msgid "cache entry"
+msgstr ""
+
+#: shoop/core/models/persistent_cache.py:21
+msgid "cache entries"
+msgstr ""
+
+#: shoop/core/models/product_media.py:28 shoop/core/models/product_media.py:62
+msgid "file"
+msgstr ""
+
+#: shoop/core/models/product_media.py:30
+msgid "documentation"
+msgstr ""
+
+#: shoop/core/models/product_media.py:31
+msgid "sample"
+msgstr ""
+
+#: shoop/core/models/product_media.py:60
+msgid "kind"
+msgstr ""
+
+#: shoop/core/models/product_media.py:68
+msgid "public (shown on product page)"
+msgstr ""
+
+#: shoop/core/models/product_media.py:70
+msgid "purchased (shown for finished purchases)"
+msgstr ""
+
+#: shoop/core/models/product_media.py:81
+msgid "product attachment"
+msgstr ""
+
+#: shoop/core/models/product_media.py:82
+msgid "product attachments"
+msgstr ""
+
+#: shoop/core/models/product_media.py:100
+msgid "attachment"
+msgstr ""
+
+#: shoop/core/models/product_shops.py:38
+msgid "purchase multiple"
+msgstr ""
+
+#: shoop/core/models/product_shops.py:39
+msgid "minimum purchase"
+msgstr ""
+
+#: shoop/core/models/product_shops.py:49 shoop/core/models/products.py:194
+msgid "primary category"
+msgstr ""
+
+#: shoop/core/models/product_shops.py:86
+msgid "This product has been deleted."
+msgstr ""
+
+#: shoop/core/models/product_shops.py:91
+msgid "This product is not visible."
+msgstr ""
+
+#: shoop/core/models/product_shops.py:97
+msgid "The Product is invisible to users not logged in."
+msgstr ""
+
+#: shoop/core/models/product_shops.py:106
+msgid "This product is not visible to your group."
+msgstr ""
+
+#: shoop/core/models/product_shops.py:135
+#, python-format
+msgid "The purchase quantity needs to be at least %d for this product."
+msgstr ""
+
+#: shoop/core/models/product_shops.py:141
+#, python-format
+msgid "The product is not supplied by %s."
+msgstr ""
+
+#: shoop/core/models/product_shops.py:169
+#, python-format
+msgid ""
+"The product can only be ordered in multiples of %(package_size)s, for "
+"example %(smaller_p)s %(unit)s."
+msgstr ""
+
+#: shoop/core/models/product_shops.py:176
+#, python-format
+msgid ""
+"The product can only be ordered in multiples of %(package_size)s, for "
+"example %(smaller_p)s or %(larger_p)s %(unit)s."
+msgstr ""
+
+#: shoop/core/models/product_variation.py:44
+msgid "variation variable"
+msgstr ""
+
+#: shoop/core/models/product_variation.py:45
+msgid "variation variables"
+msgstr ""
+
+#: shoop/core/models/product_variation.py:58
+msgid "value"
+msgstr ""
+
+#: shoop/core/models/product_variation.py:62
+msgid "variation value"
+msgstr ""
+
+#: shoop/core/models/product_variation.py:63
+msgid "variation values"
+msgstr ""
+
+#: shoop/core/models/product_variation.py:87
+msgid "variation result"
+msgstr ""
+
+#: shoop/core/models/product_variation.py:88
+msgid "variation results"
+msgstr ""
+
+#: shoop/core/models/products.py:44
+msgid "normal"
+msgstr ""
+
+#: shoop/core/models/products.py:45
+msgid "package parent"
+msgstr ""
+
+#: shoop/core/models/products.py:46
+msgid "variation parent (simple)"
+msgstr ""
+
+#: shoop/core/models/products.py:47
+msgid "variation parent (variable)"
+msgstr ""
+
+#: shoop/core/models/products.py:48
+msgid "variation child"
+msgstr ""
+
+#: shoop/core/models/products.py:58
+msgid "visible to logged in"
+msgstr ""
+
+#: shoop/core/models/products.py:59
+msgid "visible to groups"
+msgstr ""
+
+#: shoop/core/models/products.py:67
+msgid "stocked"
+msgstr ""
+
+#: shoop/core/models/products.py:68
+msgid "unstocked"
+msgstr ""
+
+#: shoop/core/models/products.py:77
+msgid "recommended"
+msgstr ""
+
+#: shoop/core/models/products.py:78
+msgid "related"
+msgstr ""
+
+#: shoop/core/models/products.py:79
+msgid "computed"
+msgstr ""
+
+#: shoop/core/models/products.py:88
+msgid "shipped"
+msgstr ""
+
+#: shoop/core/models/products.py:97
+msgid "no verification required"
+msgstr ""
+
+#: shoop/core/models/products.py:98
+msgid "admin verification required"
+msgstr ""
+
+#: shoop/core/models/products.py:99
+msgid "third party verification required"
+msgstr ""
+
+#: shoop/core/models/products.py:113 shoop/core/models/products.py:182
+msgid "product type"
+msgstr ""
+
+#: shoop/core/models/products.py:114
+msgid "product types"
+msgstr ""
+
+#: shoop/core/models/products.py:172
+msgid "variation parent"
+msgstr ""
+
+#: shoop/core/models/products.py:173
+msgid "stock"
+msgstr ""
+
+#: shoop/core/models/products.py:174
+msgid "shipping mode"
+msgstr ""
+
+#: shoop/core/models/products.py:175
+msgid "unit"
+msgstr ""
+
+#: shoop/core/models/products.py:184
+msgid "GTIN"
+msgstr ""
+
+#: shoop/core/models/products.py:184
+msgid "Global Trade Item Number"
+msgstr ""
+
+#: shoop/core/models/products.py:185
+msgid "barcode"
+msgstr ""
+
+#: shoop/core/models/products.py:186
+msgid "bookkeeping account"
+msgstr ""
+
+#: shoop/core/models/products.py:187
+msgid "profit center"
+msgstr ""
+
+#: shoop/core/models/products.py:188
+msgid "cost center"
+msgstr ""
+
+#: shoop/core/models/products.py:195
+msgid "only used for administration and reporting"
+msgstr ""
+
+#: shoop/core/models/products.py:198
+msgid "width (mm)"
+msgstr ""
+
+#: shoop/core/models/products.py:199
+msgid "height (mm)"
+msgstr ""
+
+#: shoop/core/models/products.py:200
+msgid "depth (mm)"
+msgstr ""
+
+#: shoop/core/models/products.py:201
+msgid "net weight (g)"
+msgstr ""
+
+#: shoop/core/models/products.py:202
+msgid "gross weight (g)"
+msgstr ""
+
+#: shoop/core/models/products.py:205 shoop/core/models/supplied_products.py:18
+msgid "purchase price"
+msgstr ""
+
+#: shoop/core/models/products.py:206 shoop/core/models/supplied_products.py:19
+msgid "suggested retail price"
+msgstr ""
+
+#: shoop/core/models/products.py:217
+msgid "keywords"
+msgstr ""
+
+#: shoop/core/models/products.py:220
+msgid "status text"
+msgstr ""
+
+#: shoop/core/models/products.py:221
+msgid ""
+"This text will be shown alongside the product in the shop. (Ex.: "
+"\"Available in a month\")"
+msgstr ""
+
+#: shoop/core/models/products.py:226
+msgid "variation name"
+msgstr ""
+
+#: shoop/core/models/products.py:234
+msgid "products"
+msgstr ""
+
+#: shoop/core/models/products.py:431
+msgid "cross sell link"
+msgstr ""
+
+#: shoop/core/models/products.py:432
+msgid "cross sell links"
+msgstr ""
+
+#: shoop/core/models/products.py:445
+msgid "product attribute"
+msgstr ""
+
+#: shoop/core/models/products.py:446
+msgid "product attributes"
+msgstr ""
+
+#: shoop/core/models/shipments.py:29
+msgid "not sent"
+msgstr ""
+
+#: shoop/core/models/shipments.py:30
+msgid "sent"
+msgstr ""
+
+#: shoop/core/models/shipments.py:31
+msgid "received"
+msgstr ""
+
+#: shoop/core/models/shipments.py:32 shoop/utils/analog.py:33
+msgid "error"
+msgstr ""
+
+#: shoop/core/models/shipments.py:40
+msgid "tracking code"
+msgstr ""
+
+#: shoop/core/models/shipments.py:47
+msgid "shipment"
+msgstr ""
+
+#: shoop/core/models/shipments.py:48
+msgid "shipments"
+msgstr ""
+
+#: shoop/core/models/shipments.py:81
+msgid "sent product"
+msgstr ""
+
+#: shoop/core/models/shipments.py:82
+msgid "sent products"
+msgstr ""
+
+#: shoop/core/models/supplied_products.py:17
+msgid "alert limit"
+msgstr ""
+
+#: shoop/core/models/supplied_products.py:20
+msgid "physical stock count"
+msgstr ""
+
+#: shoop/core/models/supplied_products.py:21
+msgid "logical stock count"
+msgstr ""
+
+#: shoop/core/models/taxes.py:33
+msgid "tax rate"
+msgstr ""
+
+#: shoop/core/models/taxes.py:34
+msgid "The percentage rate of the tax. Mutually exclusive with flat amounts."
+msgstr ""
+
+#: shoop/core/models/taxes.py:39
+msgid "The flat amount of the tax. Mutually exclusive with percentage rates."
+msgstr ""
+
+#: shoop/core/models/taxes.py:46
+msgid "Either rate or amount is required"
+msgstr ""
+
+#: shoop/core/models/taxes.py:48
+msgid "Cannot have both rate and amount"
+msgstr ""
+
+#: shoop/core/models/taxes.py:66
+msgid "taxes"
+msgstr ""
+
+#: shoop/core/models/taxes.py:78
+msgid "tax classes"
+msgstr ""
+
+#: shoop/core/models/taxes.py:89
+msgid "customer tax group"
+msgstr ""
+
+#: shoop/core/models/taxes.py:90
+msgid "customer tax groups"
+msgstr ""
+
+#: shoop/core/models/units.py:26
+msgid "allowed decimals"
+msgstr ""
+
+#: shoop/core/models/units.py:34
+msgid "sales unit"
+msgstr ""
+
+#: shoop/core/models/units.py:35
+msgid "sales units"
+msgstr ""
+
+#: shoop/core/modules/interface.py:49
+msgid "No Choice"
+msgstr ""
+
+#: shoop/core/suppliers/base.py:64
+msgid "Insufficient stock"
+msgstr ""
+
+#: shoop/core/taxing/_tax_summary.py:36
+msgid "Untaxed"
+msgstr "Veroton"
+
+#: shoop/core/utils/name_mixin.py:15
+msgid "First Last"
+msgstr ""
+
+#: shoop/default_tax/__init__.py:15
+msgid "Shoop Default Tax"
+msgstr ""
+
+#: shoop/default_tax/models.py:25
+msgid ""
+"Rules with same priority are value-added (e.g. US taxes) and rules with "
+"different priority are compound taxes (e.g. Canada Quebec PST case)"
+msgstr ""
+
+#: shoop/default_tax/module.py:18
+msgid "Default Taxation"
+msgstr ""
+
+#: shoop/default_tax/admin_module/__init__.py:16
+msgid "Default Tax Module"
+msgstr ""
+
+#: shoop/default_tax/admin_module/__init__.py:43
+msgid "List Tax Rules"
+msgstr ""
+
+#: shoop/default_tax/admin_module/__init__.py:45
+msgid "Show tax rules"
+msgstr ""
+
+#: shoop/default_tax/admin_module/views.py:51
+msgid "Priority"
+msgstr ""
+
+#: shoop/front/admin_module.py:39
+msgid "Abandoned Basket Value"
+msgstr ""
+
+#: shoop/front/admin_module.py:42
+#, python-format
+msgid "Based on %d baskets over the last %d days"
+msgstr ""
+
+#: shoop/front/apps/auth/views.py:73
+msgid "shop"
+msgstr "kauppa"
+
+#: shoop/front/apps/auth/views.py:126
+msgid "This recovery link is invalid."
+msgstr "Tämä linkki ei ole voimassa."
+
+#: shoop/front/apps/auth/templates/shoop/user/logout.jinja:3
+msgid "You have been logged out."
+msgstr ""
+
+#: shoop/front/apps/auth/templates/shoop/user/recover_password_complete.jinja:2
+msgid "Password Changed"
+msgstr ""
+
+#: shoop/front/apps/auth/templates/shoop/user/recover_password_complete.jinja:3
+msgid "Your password has been changed and you have been logged in."
+msgstr ""
+
+#: shoop/front/apps/auth/templates/shoop/user/recover_password_mail_content.jinja:1
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for "
+"your user account at %(site_name)s."
+msgstr ""
+
+#: shoop/front/apps/auth/templates/shoop/user/recover_password_mail_content.jinja:2
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: shoop/front/apps/auth/templates/shoop/user/recover_password_sent.jinja:3
+msgid "Password Recovery"
+msgstr ""
+
+#: shoop/front/apps/auth/templates/shoop/user/recover_password_sent.jinja:6
+msgid ""
+"\n"
+"    If an user account is associated with the email address you entered,\n"
+"    you should receive instructions on how to reset your password "
+"shortly.\n"
+"    "
+msgstr ""
+
+#: shoop/front/apps/customer_information/__init__.py:14
+msgid "Shoop Frontend - Customer Information Editing"
+msgstr ""
+
+#: shoop/front/apps/customer_information/views.py:65
+msgid "Account information saved successfully."
+msgstr ""
+
+#: shoop/front/apps/personal_order_history/__init__.py:14
+msgid "Shoop Frontend - Personal Order History"
+msgstr ""
+
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:4
+#, python-format
+msgid "Order %(identifier)s"
+msgstr ""
+
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_detail.jinja:9
+#, python-format
+msgid "Details of order %(identifier)s"
+msgstr ""
+
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_list.jinja:4
+msgid "Order History"
+msgstr "Tilaushistoria"
+
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_list.jinja:9
+msgid "Order history"
+msgstr "Tilaushistoria"
+
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_list.jinja:16
+msgid "Order date"
+msgstr "Tilauksen päivämäärä"
+
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_list.jinja:18
+msgid "Total price"
+msgstr "Kokonaishinta"
+
+#: shoop/front/apps/personal_order_history/templates/shoop/personal_order_history/order_list.jinja:32
+msgid "No orders"
+msgstr "Ei tilauksia"
+
+#: shoop/front/apps/registration/views.py:21
+msgid "Activation successful!"
+msgstr "Aktivointi onnistui!"
+
+#: shoop/front/apps/registration/views.py:29
+msgid ""
+"Registration complete. Please follow the instructions sent to your email "
+"address."
+msgstr ""
+"Rekisteröinti on valmis. Seuraattehan sähköpostiinne toimitettuja ohjeita"
+" rekisteröinnin loppuun saattamiseksi."
+
+#: shoop/front/apps/registration/templates/shoop/registration/activation_failed.jinja:3
+msgid "Account activation failed."
+msgstr "Tilin aktivointi epäonnistui."
+
+#: shoop/front/apps/simple_order_notification/admin_module/__init__.py:15
+msgid "Simple order notifications"
+msgstr ""
+
+#: shoop/front/apps/simple_search/views.py:35
+#: shoop/front/apps/simple_search/templates/shoop/simple_search/search.jinja:2
+#: shoop/front/apps/simple_search/templates/shoop/simple_search/search.jinja:4
+msgid "Search"
+msgstr "Hae"
+
+#: shoop/front/apps/simple_search/views.py:36
+msgid "Sort"
+msgstr "Järjestä"
+
+#: shoop/front/apps/simple_search/templates/shoop/simple_search/search.jinja:13
+#, python-format
+msgid "No results found for \"<strong>%(query)s</strong>\"."
+msgstr "Haulla \"<strong>%(query)s</strong>\" ei löytynyt osumia."
+
+#: shoop/front/apps/simple_search/templates/shoop/simple_search/search_form.jinja:3
+msgid "Search for products"
+msgstr "Hae tuotteita"
+
+#: shoop/front/basket/command_dispatcher.py:67
+#, python-format
+msgid "Invalid command %s"
+msgstr ""
+
+#: shoop/front/basket/commands.py:49
+#, python-format
+msgid "The quantity %f is not allowed. Please use an integer value."
+msgstr "Määrä %f ei ole mahdollinen. Annathan kokonaisluvun."
+
+#: shoop/front/basket/commands.py:55 shoop/front/basket/commands.py:58
+#, python-format
+msgid "The quantity %s is not valid."
+msgstr "Määrä %s ei ole mahdollinen."
+
+#: shoop/front/basket/commands.py:99
+msgid "This variation is not available."
+msgstr ""
+
+#: shoop/front/basket/objects.py:309
+msgid "Try to remove some products from the basket and order them separately."
+msgstr ""
+
+#: shoop/front/basket/objects.py:314
+#, python-format
+msgid "Products in basket cannot be shipped together. %s"
+msgstr ""
+
+#: shoop/front/basket/objects.py:318
+#, python-format
+msgid "Products in basket have no common payment method. %s"
+msgstr ""
+
+#: shoop/front/basket/objects.py:328
+#, python-format
+msgid "%s not available in this shop"
+msgstr "%s ei ole saatavilla tästä kaupasta"
+
+#: shoop/front/checkout/addresses.py:43 shoop/front/checkout/single_page.py:59
+msgid "Fill both the company name and VAT code fields."
+msgstr "Täytä molemmat yrityksen nimi ja ALV tunnus."
+
+#: shoop/front/checkout/confirm.py:19 shoop/front/checkout/single_page.py:37
+msgid "I accept the terms and conditions"
+msgstr "Hyväksyn ehdot"
+
+#: shoop/front/checkout/confirm.py:20
+msgid "I want to subscribe to your newsletter"
+msgstr "Haluan liittyä markkinointilistalle"
+
+#: shoop/front/checkout/confirm.py:21
+msgid "Comment"
+msgstr "Kommentti"
+
+#: shoop/front/checkout/confirm.py:26
+msgid "Confirmation"
+msgstr "Varmistus"
+
+#: shoop/front/checkout/empty.py:15
+msgid "Empty Basket"
+msgstr "Tyhjä ostoskori"
+
+#: shoop/front/checkout/methods.py:48 shoop/front/checkout/single_page.py:35
+msgid "Shipping method"
+msgstr "Toimitustapa"
+
+#: shoop/front/checkout/methods.py:50 shoop/front/checkout/single_page.py:36
+#: shoop/front/templates/shoop/front/macros.jinja:174
+msgid "Payment method"
+msgstr "Maksutapa"
+
+#: shoop/front/checkout/single_page.py:33
+msgid "Company name"
+msgstr "Yrityksen nimi"
+
+#: shoop/front/checkout/single_page.py:38
+msgid "Please send me marketing correspondence"
+msgstr ""
+
+#: shoop/front/templates/shoop/front/index.jinja:4
+msgid "Welcome to "
+msgstr "Tervetuloa kauppaan "
+
+#: shoop/front/templates/shoop/front/index.jinja:9
+msgid "New products"
+msgstr "Uudet tuotteet"
+
+#: shoop/front/templates/shoop/front/index.jinja:24
+msgid "Best sellers"
+msgstr "Suosituimmat tuotteet"
+
+#: shoop/front/templates/shoop/front/macros.jinja:104
+msgid "Products ordered"
+msgstr "Tilatut tuotteet"
+
+#: shoop/front/templates/shoop/front/macros.jinja:114
+msgid "Tax breakdown"
+msgstr "Verojen erittely"
+
+#: shoop/front/templates/shoop/front/macros.jinja:124
+msgid "Files"
+msgstr "Tiedostot"
+
+#: shoop/front/templates/shoop/front/macros.jinja:144
+msgid "Delivery"
+msgstr "Toimitus"
+
+#: shoop/front/templates/shoop/front/macros.jinja:148
+msgid "Delivery method"
+msgstr "Toimitustapa"
+
+#: shoop/front/templates/shoop/front/macros.jinja:170
+msgid "Payment"
+msgstr "Maksu"
+
+#: shoop/front/templates/shoop/front/macros.jinja:201
+msgid "Y-tunnus"
+msgstr ""
+
+#: shoop/front/templates/shoop/front/basket/default_basket.jinja:3
+#: shoop/front/templates/shoop/front/basket/default_basket.jinja:4
+msgid "Shopping cart"
+msgstr "Ostoskori"
+
+#: shoop/front/templates/shoop/front/basket/default_basket.jinja:9
+#: shoop/front/templates/shoop/front/checkout/empty.jinja:5
+msgid "Your shopping cart is empty."
+msgstr "Ostoskorinne on tyhjä."
+
+#: shoop/front/templates/shoop/front/basket/default_basket.jinja:16
+msgid "Errors"
+msgstr "Virheet"
+
+#: shoop/front/templates/shoop/front/basket/default_basket.jinja:25
+msgid "Proceed to checkout"
+msgstr "Kassalle"
+
+#: shoop/front/templates/shoop/front/basket/smartpost.jinja:1
+msgid "Pakettiautomaatti"
+msgstr ""
+
+#: shoop/front/templates/shoop/front/checkout/_confirm_table.jinja:11
+msgid "Product"
+msgstr "Tuote"
+
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:35
+#: shoop/simple_cms/admin_module/__init__.py:46
+msgid "Pages"
+msgstr "Sivut"
+
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:54
+msgid "Cart"
+msgstr "Kori"
+
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:64
+msgid "Items"
+msgstr "Nimikkeet"
+
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:86
+msgid "Your shopping cart is empty"
+msgstr "Ostoskorinne on tyhjä"
+
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:92
+msgid "View cart"
+msgstr "Avaa kori"
+
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:110
+msgid "Edit account details"
+msgstr "Muokkaa tilitietoja"
+
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:117
+msgid "My orders"
+msgstr "Tilaukseni"
+
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:136
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:143
+msgid "Log in"
+msgstr "Kirjaudu sisään"
+
+#: shoop/front/templates/shoop/front/includes/_navigation.jinja:150
+msgid "Register"
+msgstr "Rekisteröidy"
+
+#: shoop/front/templates/shoop/front/order/payment_canceled.jinja:3
+msgid "Payment canceled"
+msgstr "Maksu peruutettu"
+
+#: shoop/front/templates/shoop/front/order/payment_canceled.jinja:6
+msgid "You have canceled payment"
+msgstr "Olette peruuttaneet maksun"
+
+#: shoop/front/templates/shoop/front/order/payment_canceled.jinja:8
+msgid "Retry payment"
+msgstr "Yritä maksua uudestaan"
+
+#: shoop/front/templates/shoop/front/order/partials/product_table.jinja:10
+#: shoop/simple_cms/admin_module/views.py:107
+msgid "Title"
+msgstr "Nimike"
+
+#: shoop/front/templates/shoop/front/order/partials/taxes.jinja:5
+msgid "Tax percentage"
+msgstr "Veroprosentti"
+
+#: shoop/front/templates/shoop/front/order/partials/taxes.jinja:6
+msgid "Based on amount"
+msgstr "Määrän mukaan"
+
+#: shoop/front/templates/shoop/front/order/partials/taxes.jinja:7
+msgid "Amount of tax"
+msgstr "Veron määrä"
+
+#: shoop/front/templates/shoop/front/order/partials/taxes.jinja:8
+msgid "Total including tax"
+msgstr "Yhteensä mukaanlukien verot"
+
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:5
+msgid "Barcode"
+msgstr "Viivakoodi"
+
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:19
+msgid "Package Size"
+msgstr "Paketin koko"
+
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:23
+msgid "Width"
+msgstr "Leveys"
+
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:25
+msgid "Height"
+msgstr "Korkeus"
+
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:27
+msgid "Depth"
+msgstr "Syvyys"
+
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:31
+msgid "Net Weight"
+msgstr ""
+
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:41
+msgid "Gross Weight"
+msgstr ""
+
+#: shoop/front/templates/shoop/front/product/_detail_attributes_section.jinja:51
+msgid "External link"
+msgstr "Ulkoinen linkki"
+
+#: shoop/front/templates/shoop/front/product/_detail_order_section.jinja:23
+msgid "Product not orderable"
+msgstr "Tuote ei ole tilattavissa"
+
+#: shoop/front/templates/shoop/front/product/_detail_order_section.jinja:37
+msgid "incl. VAT"
+msgstr "mukaanlukien ALV"
+
+#: shoop/front/templates/shoop/front/product/_detail_order_section.jinja:38
+msgid "VAT"
+msgstr "ALV"
+
+#: shoop/front/templates/shoop/front/product/_detail_order_section.jinja:44
+#: shoop/front/templates/shoop/front/product/_detail_order_section.jinja:74
+msgid "Add to cart"
+msgstr "Lisää koriin"
+
+#: shoop/front/templates/shoop/front/product/category.jinja:19
+msgid "Sort by"
+msgstr "Järjestä"
+
+#: shoop/front/templates/shoop/front/product/detail.jinja:71
+msgid "incl. tax"
+msgstr "mukaanlukien verot"
+
+#: shoop/front/templates/shoop/front/product/detail.jinja:71
+msgid "excl. tax"
+msgstr "ilman veroja"
+
+#: shoop/front/templates/shoop/front/product/detail.jinja:90
+msgid "Product description"
+msgstr "Tuotteet kuvaus"
+
+#: shoop/front/templates/shoop/front/product/detail.jinja:102
+msgid "Product attributes"
+msgstr "Tuotteen ominaisuudet"
+
+#: shoop/front/templates/shoop/front/product/detail.jinja:112
+msgid "Sisältää seuraavat tuotteet"
+msgstr ""
+
+#: shoop/front/templates/shoop/front/product/detail.jinja:123
+msgid "Myös saatavilla paketissa"
+msgstr ""
+
+#: shoop/front/templates/shoop/front/product/detail.jinja:136
+msgid "Käyttäjät, jotka ostivat tämän tuotteen ostivat myös:"
+msgstr ""
+
+#: shoop/front/utils/product_sorting.py:13
+msgid "Name - A-Z"
+msgstr "Nimi - A-Z"
+
+#: shoop/front/utils/product_sorting.py:14
+msgid "Name - Z-A"
+msgstr "Nimi - Z-A"
+
+#: shoop/front/utils/product_sorting.py:15
+msgid "Price - Low to High"
+msgstr "Hinta - nouseva"
+
+#: shoop/front/utils/product_sorting.py:16
+msgid "Price - High to Low"
+msgstr "Hinta - laskeva"
+
+#: shoop/front/views/product.py:87
+msgid "This product is not available in this shop."
+msgstr "Tuote ei ole saatavilla tästä kaupasta."
+
+#: shoop/notify/enums.py:32
+msgid "continue to the next step"
+msgstr "jatka seuraavaan vaiheeseen"
+
+#: shoop/notify/enums.py:33
+msgid "stop processing"
+msgstr ""
+
+#: shoop/notify/enums.py:42
+msgid "all"
+msgstr ""
+
+#: shoop/notify/enums.py:43
+msgid "any"
+msgstr ""
+
+#: shoop/notify/enums.py:52
+msgid "any shop administrator"
+msgstr ""
+
+#: shoop/notify/enums.py:53
+msgid "a specific user"
+msgstr ""
+
+#: shoop/notify/typology.py:54
+msgid "Boolean"
+msgstr ""
+
+#: shoop/notify/typology.py:59
+msgid "Integer Number"
+msgstr ""
+
+#: shoop/notify/typology.py:67
+msgid "Decimal Number"
+msgstr ""
+
+#: shoop/notify/typology.py:84 shoop/notify/actions/email.py:27
+msgid "Language"
+msgstr ""
+
+#: shoop/notify/typology.py:89
+msgid "Email Address"
+msgstr ""
+
+#: shoop/notify/typology.py:97
+msgid "URL Address"
+msgstr ""
+
+#: shoop/notify/typology.py:105
+msgid "Phone Number"
+msgstr ""
+
+#: shoop/notify/actions/email.py:22
+msgid "Subject"
+msgstr ""
+
+#: shoop/notify/actions/email.py:23
+msgid "Email Body"
+msgstr ""
+
+#: shoop/notify/actions/email.py:26
+msgid "Recipient"
+msgstr ""
+
+#: shoop/notify/actions/email.py:29
+msgid "Fallback language"
+msgstr ""
+
+#: shoop/notify/actions/email.py:32
+msgid "Send Identifier"
+msgstr ""
+
+#: shoop/notify/actions/email.py:33
+msgid ""
+"If set, this identifier will be logged into the event's log target. If "
+"the identifier has already been logged, the e-mail won't be sent again."
+msgstr ""
+
+#: shoop/notify/admin_module/__init__.py:66
+msgid "Notification scripts"
+msgstr ""
+
+#: shoop/notify/admin_module/__init__.py:68
+msgid "Show notification scripts"
+msgstr ""
+
+#: shoop/notify/admin_module/forms.py:22
+#: shoop/notify/admin_module/views/list.py:22
+#: shoop/notify/admin_module/views/list.py:45
+msgid "Event"
+msgstr ""
+
+#: shoop/notify/admin_module/forms.py:23
+msgid "Choose which event to bind this script to."
+msgstr ""
+
+#: shoop/notify/admin_module/forms.py:26
+msgid "Script Name"
+msgstr ""
+
+#: shoop/notify/admin_module/forms.py:27
+msgid "Type in a descriptive name for your new script."
+msgstr ""
+
+#: shoop/notify/admin_module/forms.py:30
+msgid "Enable Script"
+msgstr ""
+
+#: shoop/notify/admin_module/forms.py:31
+msgid "Choose whether this script should be activated when its event fires."
+msgstr ""
+
+#: shoop/notify/admin_module/forms.py:46
+msgid ""
+"Warning: Changing the event for an existing script may have unexpected "
+"effects."
+msgstr ""
+
+#: shoop/notify/admin_module/forms.py:76
+msgid "Template"
+msgstr ""
+
+#: shoop/notify/admin_module/views/editor.py:141
+msgid "Edit Script Contents..."
+msgstr ""
+
+#: shoop/notify/conditions/simple.py:19
+msgid ""
+"Check whether the bound value `value` exists and is non-empty and non-"
+"zero."
+msgstr ""
+
+#: shoop/notify/conditions/simple.py:20
+msgid "Non-Empty"
+msgstr ""
+
+#: shoop/notify/conditions/simple.py:29
+msgid "Check whether the bound value `value` is empty or zero."
+msgstr ""
+
+#: shoop/notify/conditions/simple.py:30
+msgid "Empty"
+msgstr ""
+
+#: shoop/notify/templates/notify/admin/script_content_editor.jinja:2
+msgid "Edit Script"
+msgstr ""
+
+#: shoop/notify/templates/notify/admin/script_content_editor.jinja:14
+msgid "Edit Step"
+msgstr ""
+
+#: shoop/notify/templates/notify/admin/script_content_editor.jinja:17
+msgid "Done"
+msgstr ""
+
+#: shoop/simple_cms/__init__.py:14 shoop/simple_cms/admin_module/__init__.py:16
+#: shoop/simple_cms/admin_module/__init__.py:43
+msgid "Simple CMS"
+msgstr ""
+
+#: shoop/simple_cms/models.py:51
+msgid "This identifier can be used in templates to create URLs"
+msgstr ""
+
+#: shoop/simple_cms/models.py:55
+msgid "Visible in menu"
+msgstr ""
+
+#: shoop/simple_cms/models.py:58
+msgid "Page Title"
+msgstr ""
+
+#: shoop/simple_cms/models.py:60
+msgid "Page URL"
+msgstr ""
+
+#: shoop/simple_cms/models.py:66
+msgid "Content"
+msgstr ""
+
+#: shoop/simple_cms/models.py:73
+msgid "page"
+msgstr ""
+
+#: shoop/simple_cms/models.py:74
+msgid "pages"
+msgstr ""
+
+#: shoop/simple_cms/admin_module/__init__.py:48
+msgid "Show pages"
+msgstr ""
+
+#: shoop/simple_cms/admin_module/views.py:20
+#: shoop/simple_cms/admin_module/views.py:108
+#: shoop/simple_cms/admin_module/views.py:117
+msgid "Available from"
+msgstr ""
+
+#: shoop/simple_cms/admin_module/views.py:21
+#: shoop/simple_cms/admin_module/views.py:109
+#: shoop/simple_cms/admin_module/views.py:118
+msgid "Available to"
+msgstr ""
+
+#: shoop/simple_cms/admin_module/views.py:60
+#, python-format
+msgid "%(label)s is required when any %(language)s field is filled."
+msgstr ""
+
+#: shoop/simple_cms/admin_module/views.py:68
+msgid "Please fill at least one language fully."
+msgstr ""
+
+#: shoop/simple_cms/admin_module/views.py:110
+msgid "Created by"
+msgstr ""
+
+#: shoop/simple_cms/admin_module/views.py:111
+msgid "Date created"
+msgstr ""
+
+#: shoop/simple_cms/admin_module/views.py:116
+msgid "Page"
+msgstr ""
+
+#: shoop/simple_pricing/admin_form_part.py:48
+#, python-format
+msgid "Price (%s/%s)"
+msgstr ""
+
+#: shoop/simple_pricing/models.py:31
+msgid "product price"
+msgstr ""
+
+#: shoop/simple_pricing/models.py:32
+msgid "product prices"
+msgstr ""
+
+#: shoop/simple_pricing/module.py:22
+msgid "Simple Pricing"
+msgstr ""
+
+#: shoop/simple_pricing/templates/shoop/admin/simple_pricing/form_part.jinja:3
+msgid "Pricing"
+msgstr ""
+
+#: shoop/utils/analog.py:27
+msgid "audit"
+msgstr ""
+
+#: shoop/utils/analog.py:28
+msgid "edit"
+msgstr ""
+
+#: shoop/utils/analog.py:29
+msgid "deletion"
+msgstr ""
+
+#: shoop/utils/analog.py:30
+msgid "note"
+msgstr ""
+
+#: shoop/utils/analog.py:32
+msgid "warning"
+msgstr ""
+

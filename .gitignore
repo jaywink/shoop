@@ -4,7 +4,6 @@
 *.js.map
 *.log
 *.manifest
-*.mo
 *.pot
 *.py[cod]
 *.so
@@ -39,3 +38,4 @@ sdist/
 target/
 var/
 node_modules
+locales.pot

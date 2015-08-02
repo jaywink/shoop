@@ -68,7 +68,7 @@
             {% set price = product.get_price(request) %}
             <h3>
                 {{ price|money }}
-                {% if price.includes_tax %}(incl. tax){% else %}(excl. tax){% endif %}
+                {% if price.includes_tax %}({% trans %}incl. tax{% endtrans %}){% else %}({% trans %}excl. tax{% endtrans %}){% endif %}
                 <small>/ {{ product.sales_unit.short_name }}</small>
             </h3>
 

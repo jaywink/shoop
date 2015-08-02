@@ -114,3 +114,35 @@ The DocCov script is included for calculating some documentation coverage metric
 .. code-block:: shell
 
    python _misc/doccov.py shoop/core -o doccov.html
+
+Translations
+------------
+
+All translations are under ``shoop/core/locale``.
+
+To add new translations for existing strings, just edit the relevant ``shoop/core/locale/<code>/LC_MESSAGES/django.po``
+file.
+
+If you add new translatable strings to the code, you will need to first extract the translation strings to be able
+to edit them in other languages. For this, use the ``pybabel`` command as follows, executed from git root.
+
+To extract strings, first generate a template:
+
+.. code-block:: shell
+
+   pybabel extract -F babel.cfg -o locales.pot shoop/
+
+Then update message files by executing this:
+
+.. code-block:: shell
+
+   pybabel update -D django -d shoop/core/locale -i locales.pot
+
+Then you can edit the changed ``.po`` files with new translations, or just commit the new message files so someone
+else can translate them.
+
+To make changes to translation files available to your local installation, compile the messages:
+
+.. code-block:: shell
+
+   pybabel compile -D django -d shoop/core/locale

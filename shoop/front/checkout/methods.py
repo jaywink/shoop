@@ -43,8 +43,10 @@ class MethodModelChoiceField(forms.ModelChoiceField):
 
 
 class MethodsForm(forms.Form):
-    shipping_method = MethodModelChoiceField(queryset=ShippingMethod.objects.all(), widget=forms.RadioSelect())
-    payment_method = MethodModelChoiceField(queryset=PaymentMethod.objects.all(), widget=forms.RadioSelect())
+    shipping_method = MethodModelChoiceField(
+        queryset=ShippingMethod.objects.all(), widget=forms.RadioSelect(), label=_(u"Shipping method"))
+    payment_method = MethodModelChoiceField(
+        queryset=PaymentMethod.objects.all(), widget=forms.RadioSelect(), label=_(u"Payment method"))
 
     def __init__(self, *args, **kwargs):
         self.basket = kwargs.pop("basket")
