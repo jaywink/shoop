@@ -123,6 +123,6 @@ class XthemeEnvironment(Environment):
         if not theme:
             return name
         return [
+            name,
             "%s/%s" % ((theme.template_dir or theme.identifier), name),
-            name
         ]
