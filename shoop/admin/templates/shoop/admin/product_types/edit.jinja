@@ -1,7 +1,6 @@
 {% extends "shoop/admin/base.jinja" %}
-{% from "shoop/admin/macros/general.jinja" import content_block, content_with_sidebar %}
+{% from "shoop/admin/macros/general.jinja" import content_block %}
 {% from "shoop/admin/macros/multilanguage.jinja" import language_dependent_content_tabs %}
-
 {% block content %}
     {% call content_with_sidebar(content_id="product_type_form") %}
         <form method="post" id="product_type_form">
@@ -10,6 +9,7 @@
                 {% call(form, language, map) language_dependent_content_tabs(form) %}
                     {{ bs3.field(form[map.name]) }}
                 {% endcall %}
+                {{ bs3.field(form.identifier) }}
             {% endcall %}
             {% call content_block(_("Attributes"), "fa-tags") %}
                 {{ bs3.field(form.attributes) }}

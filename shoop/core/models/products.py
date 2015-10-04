@@ -98,7 +98,7 @@ class ProductVerificationMode(Enum):
 
 @python_2_unicode_compatible
 class ProductType(TranslatableModel):
-    identifier = InternalIdentifierField(unique=True)
+    identifier = InternalIdentifierField(unique=True, editable=True)
     translations = TranslatedFields(
         name=models.CharField(max_length=64, verbose_name=_('name')),
     )
