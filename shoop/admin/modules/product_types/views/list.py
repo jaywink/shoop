@@ -22,6 +22,7 @@ class ProductTypeListView(PicotableListView):
             filter_field="translations__name",
             placeholder=_("Filter by name...")
         )),
+        Column("identifier", _(u"Internal identifier")),
         Column("n_attributes", _(u"Number of Attributes")),
     ]
 
