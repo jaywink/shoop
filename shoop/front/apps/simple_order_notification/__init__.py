@@ -72,12 +72,13 @@ class SimpleOrderNotificationAppConfig(AppConfig):
         ]
     }
 
-    def ready(self):
-        from shoop.front.signals import order_complete_viewed
-
-        order_complete_viewed.connect(
-            send_simple_order_notification,
-            dispatch_uid="simple_order_notification.send_simple_order_notification")
+    ## DISABLE NOTIFICATION
+    # def ready(self):
+    #     from shoop.front.signals import order_complete_viewed
+    #
+    #     order_complete_viewed.connect(
+    #         send_simple_order_notification,
+    #         dispatch_uid="simple_order_notification.send_simple_order_notification")
 
 
 default_app_config = "shoop.front.apps.simple_order_notification.SimpleOrderNotificationAppConfig"
