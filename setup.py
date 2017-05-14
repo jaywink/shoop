@@ -83,6 +83,8 @@ REQUIRES = [
     'django-countries~=3.3',
     'django-enumfields~=0.7.2',
     'django-filer~=1.0',
+    # Lock django-filer dependency Pillow under 4.0 due to breaking changes
+    'Pillow<4.0.0',
     'django-jinja~=1.4',
     'django-mptt~=0.8.0',
     'django-parler~=1.5',
