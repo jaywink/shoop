@@ -50,6 +50,14 @@ class OrderDetailView(DetailView):
             extra_css_class="btn-success"
         ))
 
+        toolbar.append(URLActionButton(
+            text=_("Cancel"),
+            icon="fa fa-remove",
+            disable_reason=_("Order is already cancelled") if order.status.role == OrderStatusRole.CANCELED else None,
+            url=reverse("shoop_admin:order.cancel", kwargs={"pk": order.pk}),
+            extra_css_class="btn-warning"
+        ))
+
         # TODO: Add extensibility to action_button_groups?
         return toolbar
 

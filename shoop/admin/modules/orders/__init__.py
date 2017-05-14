@@ -49,6 +49,11 @@ class OrderModule(CurrencyBound, AdminModule):
                 "shoop.admin.modules.orders.views.OrderListView",
                 name="order.list"
             ),
+            admin_url(
+                "^orders/(?P<pk>\d+)/cancel/$",
+                "shoop.admin.modules.orders.views.OrderCancelView",
+                name="order.cancel"
+            ),
         ]
 
     def get_menu_category_icons(self):

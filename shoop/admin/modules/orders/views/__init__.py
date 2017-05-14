@@ -10,5 +10,9 @@ from .create import OrderCreateView
 from .detail import OrderDetailView, OrderSetStatusView
 from .list import OrderListView
 from .shipment import OrderCreateShipmentView
+from .cancel import OrderCancelView
 
-__all__ = ["OrderDetailView", "OrderListView", "OrderCreateShipmentView", "OrderSetStatusView", "OrderCreateView"]
+__all__ = [
+    "OrderDetailView", "OrderListView", "OrderCreateShipmentView", "OrderSetStatusView", "OrderCreateView",
+    "OrderCancelView",
+]
